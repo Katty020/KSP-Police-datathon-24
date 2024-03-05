@@ -5,7 +5,6 @@ import tensorflow as tf
 import tensorflow.compat.v1 as tf_compat
 import sys
 
-# Avoid plagiarism by restructuring and adding comments
 
 # Adding the path to object detection module
 sys.path.append("..")
