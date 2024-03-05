@@ -1,7 +1,7 @@
-# Accident-detection-system
+# Accident-data-analysis
 
 ## About Project
-This Repository contains the Video-based Accident Detection System built in Python.
+This Repository contains the Video-basedAccident-data-analysis built in Python.
 
 ## Data Used 
 
