@@ -4,7 +4,6 @@ import numpy as np
 import tensorflow as tf
 import sys
 
-# Avoid plagiarism by adding comments and restructuring the code
 
 # Importing utility functions from local files
 from utils import label_map_util
