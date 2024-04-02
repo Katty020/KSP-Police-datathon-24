@@ -45,6 +45,13 @@ detection_scores = detection_graph.get_tensor_by_name('detection_scores:0')
 detection_classes = detection_graph.get_tensor_by_name('detection_classes:0')
 num_detections = detection_graph.get_tensor_by_name('num_detections:0')
 
+# image_tensor = detection_graph.get_tensor_by_name('image_tensor:0')
+# detection_boxes = detection_graph.get_tensor_by_name('detection_boxes:0')
+# detection_scores = detection_graph.get_tensor_by_name('detection_scores:0')
+# detection_classes = detection_graph.get_tensor_by_name('detection_classes:0')
+# num_detections = detection_graph.get_tensor_by_name('num_detections:0')
+
+
 # Initialize webcam feed
 video = cv2.VideoCapture(0)
 ret = video.set(3, 1280)  # Setting width
